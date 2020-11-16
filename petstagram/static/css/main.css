@@ -1,4 +1,3 @@
-
 body {
     font-size: 16px;
 }
@@ -7,18 +6,6 @@ section header {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     margin: 25px 0;
     padding-bottom: 25px;
-}
-
-.title1 {
-    font-size: 3.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-}
-
-.title2 {
-    font-size: 1.25rem;
-    font-weight: 300;
-    margin: 10px;
 }
 
 .list-horizontal .list-item {
@@ -34,16 +21,27 @@ section header {
 }
 
 .button {
+    display: inline-block;
+
     padding: 5px 15px;
+    border-style: none;
+    border-radius: 3px;
+
+    font-size: 16px;
     color: #fff;
     background-color: #6c757d;
     border-color: #6c757d;
-    border-radius: 3px;
 }
 
 .button:hover {
+    color: #fff;
     background-color: #5a6268;
     border-color: #545b62;
+    cursor: pointer;
+}
+
+.button.button-blue {
+    background-color: blue;
 }
 
 .site-nav {
@@ -59,18 +57,31 @@ section header {
 }
 
 .banner {
-    background-color: #e9ecef;
-    height: 600px;
-    width: 1046px;
+    height: 500px;
+
     padding: 15px 15px 15px 15px;
-    margin: 0 auto;
+
+    background-color: #e9ecef;
 }
 
 .banner:before {
-    background-image: url("/static/animals_banner.png");
+    background-image: url('/static/animals_banner.png');
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
-    content: "";
-    height: 300px
+    content: '';
+    height: 300px;
+}
+
+#root {
+    width: 1046px;
+    margin: 0 auto;
+}
+
+.pet-buttons {
+    padding-top: 10px;
+}
+
+.underline {
+    text-decoration: underline;
 }
