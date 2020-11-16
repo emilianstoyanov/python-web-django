@@ -1,0 +1,6 @@
+{% extends 'shared/site.html' %}
+{% load static %}
+
+{% block site_content %}
+    <a href="{% url 'like pet' pet.id %}">Like</a>
+{% endblock %}

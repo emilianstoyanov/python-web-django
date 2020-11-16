@@ -1,0 +1,14 @@
+{% extends 'shared/site.html' %}
+{% load static %}
+
+{% block site_content %}
+
+    {% for pet in pets %}
+        <a href="{% url 'pet details' pet.id %}">
+            {{ pet.name }}
+
+        </a>
+
+    {% endfor %}
+
+{% endblock %}
