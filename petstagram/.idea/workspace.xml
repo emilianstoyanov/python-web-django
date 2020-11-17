@@ -33,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python-web-frameworks/petstagram" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../djangoProjects/my_blog_emilian_stoyanov" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -81,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605526821140</updated>
       <workItem from="1605526931772" duration="16202000" />
+      <workItem from="1605623715961" duration="1760000" />
     </task>
     <servers />
   </component>
@@ -88,10 +89,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1403" y="-16" key="FileChooserDialogImpl" timestamp="1605555321951">
+    <state x="-1403" y="-16" key="FileChooserDialogImpl" timestamp="1605623828437">
       <screen x="-2560" y="-304" width="2560" height="1080" />
     </state>
-    <state x="-1403" y="-16" key="FileChooserDialogImpl/0.0.1366.768/-2560.-304.2560.1080@-2560.-304.2560.1080" timestamp="1605555321951" />
+    <state x="-1403" y="-16" key="FileChooserDialogImpl/0.0.1366.768/-2560.-304.2560.1080@-2560.-304.2560.1080" timestamp="1605623828437" />
     <state width="1650" height="187" key="GridCell.Tab.0.bottom" timestamp="1605555980744">
       <screen x="-2560" y="-304" width="2560" height="1080" />
     </state>
