@@ -1,0 +1,43 @@
+{% extends 'shared/base.html' %}
+{% load static %}
+
+
+{% block page_styles %}
+    <link rel="stylesheet" href="{% static 'css/css.css' %}"/>
+{% endblock %}
+
+{% block site_title %}
+    Index page with function view
+{% endblock %}
+
+{% block site_main_content %}
+    <h1>Users</h1>
+    {% if users %}
+        <ul>
+            {% for user in users %}
+                <li class="highlightable {% cycle 'even' 'odd' %}">
+                    {{ user.username }}
+                    {% cycle '1' '2' %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No users</p>
+    {% endif %}
+
+    <h1>Games</h1>
+    {% if games %}
+        <ul>
+            {% for game in games %}
+                <li>
+                    {{ game.name }}
+                    {{ game.level_of_difficulty }}
+                    {{ game.get_level_of_difficulty_display }}
+                    {{ game.players_count }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No games</p>
+    {% endif %}
+{% endblock %}
