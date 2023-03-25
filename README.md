@@ -1,6 +1,6 @@
-# python-web-with-django
+![Software-University-Logo-blue-horizontal](https://user-images.githubusercontent.com/68276889/226183373-6da858f7-5a37-4b7d-84cc-81b7fdd858bd.png)
 
-Python Web Basics - септември 2020
 
-В курса Python Web Basics ще положим основите на Web програмирането с Python и Django. Ще се запознаем с основните принципи на уеб разработката, като HTTP Protocol, ще се научим да работим с бази от данни (SQL), ще създаваме собствен сървър и ще се запознаем с основните концепции в MVC архитектурата.
+Python Web Basics - September 2020
 
+In the Python Web Basics course, we will lay the foundations of Web programming with Python and Django. We will learn the basic principles of web development, such as the HTTP Protocol, learn to work with databases (SQL), create our own server, and learn the basic concepts in the MVC architecture.
